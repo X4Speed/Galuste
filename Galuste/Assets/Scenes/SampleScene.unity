@@ -372,6 +372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c09ac0291c36c49ae4a13057b4d516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  salt: 10
 --- !u!68 &738146764
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -549,8 +550,8 @@ EdgeCollider2D:
   - {x: 0.25195414, y: 1.4548442}
   - {x: 0.24559478, y: 0.94616073}
   - {x: 0.6368905, y: 0.72320104}
-  - {x: 0.74104273, y: 0.49680042}
-  - {x: 0.724854, y: -1.0996733}
+  - {x: 0.7288651, y: 0.50027984}
+  - {x: 0.7288651, y: -1.1118513}
   - {x: 0.6770741, y: -1.431138}
   - {x: 0.55552596, y: -1.6136942}
   m_AdjacentStartPoint: {x: 0, y: 0}
@@ -639,6 +640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c09ac0291c36c49ae4a13057b4d516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  salt: 6
 --- !u!1 &1318075879
 GameObject:
   m_ObjectHideFlags: 0
