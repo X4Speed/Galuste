@@ -13,8 +13,8 @@ public class levelgenerator : MonoBehaviour
         Vector3 spawnPosition = new Vector3();
         for (int i = 0; i < numardeplatformus; i++)
         {
-            spawnPosition.y = Random.Range(minY, maxY);
-            Instantiate(platformus, spawnPosition, Quaternion.identity);
+            spawnPosition.y += Random.Range(minY, maxY);
+            Instantiate(platformus, spawnPosition, platformus.transform.rotation);
         }
     }
 
